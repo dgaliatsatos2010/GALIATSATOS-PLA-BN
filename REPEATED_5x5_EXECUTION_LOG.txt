@@ -1,0 +1,78 @@
+R1F1: PLA-BN acc=0.550, macro-F1=0.424, term=tolerance, iter=19
+R1F2: PLA-BN acc=0.531, macro-F1=0.417, term=tolerance, iter=22
+R1F3: PLA-BN acc=0.488, macro-F1=0.374, term=tolerance, iter=20
+R1F4: PLA-BN acc=0.543, macro-F1=0.408, term=tolerance, iter=28
+R1F5: PLA-BN acc=0.531, macro-F1=0.412, term=tolerance, iter=17
+R2F1: PLA-BN acc=0.596, macro-F1=0.461, term=tolerance, iter=21
+R2F2: PLA-BN acc=0.558, macro-F1=0.423, term=tolerance, iter=26
+R2F3: PLA-BN acc=0.601, macro-F1=0.458, term=tolerance, iter=18
+R2F4: PLA-BN acc=0.604, macro-F1=0.448, term=tolerance, iter=22
+R2F5: PLA-BN acc=0.515, macro-F1=0.365, term=tolerance, iter=17
+R3F1: PLA-BN acc=0.547, macro-F1=0.427, term=tolerance, iter=30
+R3F2: PLA-BN acc=0.549, macro-F1=0.397, term=tolerance, iter=29
+R3F3: PLA-BN acc=0.610, macro-F1=0.419, term=tolerance, iter=22
+R3F4: PLA-BN acc=0.512, macro-F1=0.391, term=tolerance, iter=18
+R3F5: PLA-BN acc=0.607, macro-F1=0.450, term=tolerance, iter=18
+R4F1: PLA-BN acc=0.566, macro-F1=0.427, term=tolerance, iter=21
+R4F2: PLA-BN acc=0.567, macro-F1=0.430, term=tolerance, iter=21
+R4F3: PLA-BN acc=0.472, macro-F1=0.380, term=tolerance, iter=17
+R4F4: PLA-BN acc=0.555, macro-F1=0.414, term=tolerance, iter=21
+R4F5: PLA-BN acc=0.528, macro-F1=0.404, term=tolerance, iter=33
+R5F1: PLA-BN acc=0.569, macro-F1=0.393, term=tolerance, iter=20
+R5F2: PLA-BN acc=0.555, macro-F1=0.481, term=tolerance, iter=24
+R5F3: PLA-BN acc=0.534, macro-F1=0.431, term=tolerance, iter=17
+R5F4: PLA-BN acc=0.555, macro-F1=0.418, term=tolerance, iter=24
+R5F5: PLA-BN acc=0.546, macro-F1=0.419, term=tolerance, iter=26
+
+CANONICAL SUMMARY
+                    method  n_outer_evaluations  accuracy_mean  accuracy_sd  balanced_accuracy_mean  balanced_accuracy_sd  macro_f1_mean  macro_f1_sd  log_loss_mean  log_loss_sd  brier_mean  brier_sd
+    GALIATSATOS/PLA-BN TAN                   25       0.551677     0.035213                0.420780              0.026769       0.418917     0.027439       1.206035     0.076265    0.631178  0.034918
+Operator-aware logistic EM                   25       0.626235     0.024521                0.454282              0.018510       0.438278     0.021803       0.844876     0.033224    0.509085  0.019908
+     Oracle-label logistic                   25       0.648186     0.020622                0.452430              0.017822       0.434859     0.018360       0.807337     0.022673    0.486183  0.012836
+
+PAIRED TESTS
+                                             comparison            metric                                                                                            direction_note  mean_fold_difference  corrected_se  corrected_t  corrected_df  corrected_p  corrected_ci95_low  corrected_ci95_high  repeat_level_wilcoxon_stat  repeat_level_wilcoxon_p  n_outer_evaluations  n_repeat_means  corrected_p_holm  repeat_level_wilcoxon_p_holm
+GALIATSATOS/PLA-BN TAN minus Operator-aware logistic EM          accuracy positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier             -0.074558      0.016241    -4.590596            24 1.176179e-04           -0.108078            -0.041037                         0.0                   0.0625                   25               5      5.880896e-04                         0.625
+GALIATSATOS/PLA-BN TAN minus Operator-aware logistic EM balanced_accuracy positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier             -0.033502      0.014462    -2.316561            24 2.938272e-02           -0.063349            -0.003654                         0.0                   0.0625                   25               5      1.175309e-01                         0.625
+GALIATSATOS/PLA-BN TAN minus Operator-aware logistic EM          macro_f1 positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier             -0.019361      0.015646    -1.237387            24 2.279138e-01           -0.051653             0.012932                         0.0                   0.0625                   25               5      4.558276e-01                         0.625
+GALIATSATOS/PLA-BN TAN minus Operator-aware logistic EM          log_loss positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier              0.361159      0.036267     9.958342            24 5.332749e-10            0.286308             0.436010                         0.0                   0.0625                   25               5      4.799474e-09                         0.625
+GALIATSATOS/PLA-BN TAN minus Operator-aware logistic EM             brier positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier              0.122093      0.013569     8.998251            24 3.704087e-09            0.094089             0.150097                         0.0                   0.0625                   25               5      2.872932e-08                         0.625
+     GALIATSATOS/PLA-BN TAN minus Oracle-label logistic          accuracy positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier             -0.096508      0.020147    -4.790298            24 7.078033e-05           -0.138089            -0.054928                         0.0                   0.0625                   25               5      4.246820e-04                         0.625
+     GALIATSATOS/PLA-BN TAN minus Oracle-label logistic balanced_accuracy positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier             -0.031649      0.015375    -2.058494            24 5.055634e-02           -0.063381             0.000083                         0.0                   0.0625                   25               5      1.516690e-01                         0.625
+     GALIATSATOS/PLA-BN TAN minus Oracle-label logistic          macro_f1 positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier             -0.015942      0.015596    -1.022149            24 3.169038e-01           -0.048131             0.016248                         0.0                   0.0625                   25               5      4.558276e-01                         0.625
+     GALIATSATOS/PLA-BN TAN minus Oracle-label logistic          log_loss positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier              0.398698      0.036915    10.800380            24 1.070257e-10            0.322508             0.474887                         0.0                   0.0625                   25               5      1.070257e-09                         0.625
+     GALIATSATOS/PLA-BN TAN minus Oracle-label logistic             brier positive favors PLA-BN for accuracy/balanced_accuracy/macro_f1; negative favors PLA-BN for log_loss/brier              0.144995      0.016087     9.013140            24 3.591164e-09            0.111793             0.178198                         0.0                   0.0625                   25               5      2.872932e-08                         0.625
+
+MANIFEST
+{
+  "dataset": "NHANES 2015-2016 complete-case adults with HbA1c, FPG, and 2-h OGTT",
+  "n_participants": 1631,
+  "canonical_mode": "max",
+  "exclude_known_diabetes": false,
+  "n_repeats": 5,
+  "outer_folds_per_repeat": 5,
+  "total_outer_evaluations": 25,
+  "base_seed": 20260821,
+  "inference": {
+    "primary_descriptive_unit": "outer fold, summarized with repeat-level uncertainty",
+    "paired_test_1": "exact Wilcoxon on five repeat-level means",
+    "paired_test_2": "Nadeau-Bengio corrected resampled t-test on 25 paired fold differences",
+    "multiple_testing": "Holm adjustment across 10 canonical metric-comparison tests",
+    "naive_25_fold_independence_assumed": false
+  },
+  "leakage_guards": {
+    "operators_estimated_inside_outer_training_only": true,
+    "preprocessing_fit_inside_outer_training_only": true,
+    "canonical_labels_supplied_to_proposed_fit": false,
+    "outer_test_used_for_tuning_or_operator_estimation": false
+  },
+  "all_operator_ranks_full": true,
+  "all_proposed_tolerance_converged": true,
+  "termination_reason_counts": {
+    "tolerance": 25
+  },
+  "condition_number_range": [
+    2.3515491583774453,
+    3.1840206052916504
+  ]
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or reproducibility package, please cite the associated manuscript and this repository release."
+title: "GALIATSATOS / PLA-BN: Reproducibility Package"
+type: software
+authors:
+  - family-names: Galiatsatos
+    given-names: Dimitrios
+    orcid: "https://orcid.org/0009-0005-5232-1425"
+    affiliation: "Hellenic Open University, Patras, Greece"
+version: 1.1.0
+date-released: 2026-08-24
+license: MIT
+keywords:
+  - Bayesian networks
+  - heterogeneous outcome definitions
+  - coarse labels
+  - Structural EM
+  - outcome harmonization
+  - probabilistic transport
+preferred-citation:
+  type: article
+  title: "Learning Across Heterogeneous Outcome Definitions: The GALIATSATOS Framework and Partition-Lattice Aligned Bayesian Networks"
+  authors:
+    - family-names: Galiatsatos
+      given-names: Dimitrios
+      orcid: "https://orcid.org/0009-0005-5232-1425"
+  year: 2026
+  journal: "Communications in Statistics - Simulation and Computation"

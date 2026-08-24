@@ -1,0 +1,61 @@
+{
+  "design": "natural-cohort / semi-synthetic-definition external-population stress test",
+  "training_sites": [
+    "Cleveland",
+    "Hungary",
+    "Switzerland"
+  ],
+  "target_site": "VA Long Beach",
+  "canonical_mapping": "native num 0->0, 1->1, 2->2, 3/4->3",
+  "training_thresholds": [
+    1,
+    2,
+    3
+  ],
+  "rank": {
+    "rank": 4,
+    "latent_classes": 4,
+    "full_column_rank": true,
+    "singular_values": [
+      2.6762431989952593,
+      1.847759065022574,
+      0.9152717300515842,
+      0.7653668647301795
+    ],
+    "condition_number_on_identifiable_subspace": 3.496680248809485
+  },
+  "selected_features": [
+    4,
+    7,
+    3,
+    0,
+    12,
+    9,
+    2,
+    6,
+    11,
+    10
+  ],
+  "effective_bins": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    2,
+    2,
+    1,
+    2
+  ],
+  "proposed": {
+    "converged": true,
+    "termination_reason": "tolerance",
+    "iterations": 58,
+    "final_log_likelihood": -5261.480643179267,
+    "best_start": 1,
+    "n_init": 3
+  },
+  "canonical_target_labels_used_for_model_fitting": false,
+  "external_target_rows_used_for_preprocessing_fit": false
+}

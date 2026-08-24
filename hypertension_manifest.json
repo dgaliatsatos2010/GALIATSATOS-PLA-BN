@@ -1,0 +1,21 @@
+{
+  "dataset": "NHANES 2015-2016",
+  "n_participants": 5012,
+  "bp_pair_requirement": ">=2 valid paired readings",
+  "mean_sbp": 125.18249534450653,
+  "mean_dbp": 69.8480313913275,
+  "canonical_counts": {
+    "0": 3000,
+    "1": 1046,
+    "2": 966
+  },
+  "definition_positive_rates": {
+    "130_80": 0.4014365522745411,
+    "140_90": 0.19273743016759776
+  },
+  "operator_rank": 3,
+  "operator_condition_number": 2.4142135623730954,
+  "all_tolerance_converged": true,
+  "n_repeats": 5,
+  "total_outer": 25
+}

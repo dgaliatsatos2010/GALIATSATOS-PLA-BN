@@ -1,0 +1,32 @@
+{
+  "dataset": "NHANES 2015-2016 complete-case adults with HbA1c, FPG, and 2-h OGTT",
+  "n_participants": 1631,
+  "canonical_mode": "max",
+  "exclude_known_diabetes": false,
+  "n_repeats": 5,
+  "outer_folds_per_repeat": 5,
+  "total_outer_evaluations": 25,
+  "base_seed": 20260821,
+  "inference": {
+    "primary_descriptive_unit": "outer fold, summarized with repeat-level uncertainty",
+    "paired_test_1": "exact Wilcoxon on five repeat-level means",
+    "paired_test_2": "Nadeau-Bengio corrected resampled t-test on 25 paired fold differences",
+    "multiple_testing": "Holm adjustment across 10 canonical metric-comparison tests",
+    "naive_25_fold_independence_assumed": false
+  },
+  "leakage_guards": {
+    "operators_estimated_inside_outer_training_only": true,
+    "preprocessing_fit_inside_outer_training_only": true,
+    "canonical_labels_supplied_to_proposed_fit": false,
+    "outer_test_used_for_tuning_or_operator_estimation": false
+  },
+  "all_operator_ranks_full": true,
+  "all_proposed_tolerance_converged": true,
+  "termination_reason_counts": {
+    "tolerance": 25
+  },
+  "condition_number_range": [
+    2.3515491583774453,
+    3.1840206052916504
+  ]
+}

@@ -1,0 +1,25 @@
+method,outcome_space,metric,value
+GALIATSATOS/PLA-BN (TAN),canonical_4_class,accuracy,0.295
+GALIATSATOS/PLA-BN (TAN),canonical_4_class,balanced_accuracy,0.2721770697021773
+GALIATSATOS/PLA-BN (TAN),canonical_4_class,macro_f1,0.2177005463634608
+GALIATSATOS/PLA-BN (TAN),canonical_4_class,log_loss,3.0449265894720368
+GALIATSATOS/PLA-BN (TAN),external_any_disease_definition,accuracy,0.69
+GALIATSATOS/PLA-BN (TAN),external_any_disease_definition,balanced_accuracy,0.4759836820634294
+GALIATSATOS/PLA-BN (TAN),external_any_disease_definition,macro_f1,0.43748865904554524
+GALIATSATOS/PLA-BN (TAN),external_any_disease_definition,log_loss,0.650014608438801
+Operator-aware logistic EM,canonical_4_class,accuracy,0.32
+Operator-aware logistic EM,canonical_4_class,balanced_accuracy,0.3002181641887524
+Operator-aware logistic EM,canonical_4_class,macro_f1,0.2377121855649463
+Operator-aware logistic EM,canonical_4_class,log_loss,3.919693466447444
+Operator-aware logistic EM,external_any_disease_definition,accuracy,0.655
+Operator-aware logistic EM,external_any_disease_definition,balanced_accuracy,0.6265956046848269
+Operator-aware logistic EM,external_any_disease_definition,macro_f1,0.6019728303192871
+Operator-aware logistic EM,external_any_disease_definition,log_loss,0.6208366141956384
+Oracle-label logistic,canonical_4_class,accuracy,0.335
+Oracle-label logistic,canonical_4_class,balanced_accuracy,0.3180731720455537
+Oracle-label logistic,canonical_4_class,macro_f1,0.27759297238173364
+Oracle-label logistic,canonical_4_class,log_loss,1.6627837017411813
+Oracle-label logistic,external_any_disease_definition,accuracy,0.705
+Oracle-label logistic,external_any_disease_definition,balanced_accuracy,0.6214633504408474
+Oracle-label logistic,external_any_disease_definition,macro_f1,0.6190476190476191
+Oracle-label logistic,external_any_disease_definition,log_loss,0.5753791513690149

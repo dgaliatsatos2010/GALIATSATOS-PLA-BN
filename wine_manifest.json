@@ -1,0 +1,30 @@
+{
+  "dataset": "UCI Wine Quality white",
+  "n_rows": 4898,
+  "n_unique_predictor_vectors": 3961,
+  "canonical_counts": {
+    "0": 1640,
+    "1": 2198,
+    "2": 1060
+  },
+  "quality_score_counts": {
+    "3": 20,
+    "4": 163,
+    "5": 1457,
+    "6": 2198,
+    "7": 880,
+    "8": 175,
+    "9": 5
+  },
+  "definition_positive_rates": {
+    "quality_ge_6": 0.6651694569211923,
+    "quality_ge_7": 0.21641486320947326
+  },
+  "operator_rank": 3,
+  "operator_condition_number": 2.4142135623730954,
+  "all_group_overlap_zero": true,
+  "all_tolerance_converged": true,
+  "n_repeats": 5,
+  "total_outer": 25,
+  "binning": "5 training-fold quantile bins per feature"
+}

@@ -1,0 +1,26 @@
+repeat,fold,split_id,n_train_total,n_calibration,n_development,n_test,environment_sizes,operator_rank,operator_condition_number,proposed_converged,proposed_termination_reason,proposed_iterations,proposed_best_start,canonical_labels_used_for_proposed_fit,outer_test_rows_used_for_operator_estimation,outer_test_rows_used_for_preprocessing_fit
+1,1,R1F1,1304,261,1043,327,"[348, 348, 347]",3,3.1840206052916504,True,tolerance,19,1,False,False,False
+1,2,R1F2,1305,261,1044,326,"[348, 348, 348]",3,2.8670297479508546,True,tolerance,22,0,False,False,False
+1,3,R1F3,1305,261,1044,326,"[348, 348, 348]",3,2.5756412375685533,True,tolerance,20,2,False,False,False
+1,4,R1F4,1305,261,1044,326,"[348, 348, 348]",3,2.7318808277697295,True,tolerance,28,2,False,False,False
+1,5,R1F5,1305,261,1044,326,"[348, 348, 348]",3,3.0474554328084493,True,tolerance,17,1,False,False,False
+2,1,R2F1,1304,261,1043,327,"[348, 348, 347]",3,2.5757583098970414,True,tolerance,21,0,False,False,False
+2,2,R2F2,1305,261,1044,326,"[348, 348, 348]",3,3.051094542929722,True,tolerance,26,2,False,False,False
+2,3,R2F3,1305,261,1044,326,"[348, 348, 348]",3,2.663654980403733,True,tolerance,18,2,False,False,False
+2,4,R2F4,1305,261,1044,326,"[348, 348, 348]",3,2.4592121850035475,True,tolerance,22,2,False,False,False
+2,5,R2F5,1305,261,1044,326,"[348, 348, 348]",3,2.517145906921063,True,tolerance,17,2,False,False,False
+3,1,R3F1,1304,261,1043,327,"[348, 348, 347]",3,2.8730983501481355,True,tolerance,30,0,False,False,False
+3,2,R3F2,1305,261,1044,326,"[348, 348, 348]",3,2.7782750868417145,True,tolerance,29,1,False,False,False
+3,3,R3F3,1305,261,1044,326,"[348, 348, 348]",3,2.506482651002931,True,tolerance,22,2,False,False,False
+3,4,R3F4,1305,261,1044,326,"[348, 348, 348]",3,2.8329144962641712,True,tolerance,18,2,False,False,False
+3,5,R3F5,1305,261,1044,326,"[348, 348, 348]",3,2.3515491583774453,True,tolerance,18,1,False,False,False
+4,1,R4F1,1304,261,1043,327,"[348, 348, 347]",3,2.7772821533741214,True,tolerance,21,2,False,False,False
+4,2,R4F2,1305,261,1044,326,"[348, 348, 348]",3,2.6709400941581984,True,tolerance,21,0,False,False,False
+4,3,R4F3,1305,261,1044,326,"[348, 348, 348]",3,2.680335708047856,True,tolerance,17,1,False,False,False
+4,4,R4F4,1305,261,1044,326,"[348, 348, 348]",3,2.7538953956063397,True,tolerance,21,2,False,False,False
+4,5,R4F5,1305,261,1044,326,"[348, 348, 348]",3,2.8023190112141663,True,tolerance,33,2,False,False,False
+5,1,R5F1,1304,261,1043,327,"[348, 348, 347]",3,2.511836206920815,True,tolerance,20,2,False,False,False
+5,2,R5F2,1305,261,1044,326,"[348, 348, 348]",3,2.7942230874780436,True,tolerance,24,1,False,False,False
+5,3,R5F3,1305,261,1044,326,"[348, 348, 348]",3,2.595801936719352,True,tolerance,17,2,False,False,False
+5,4,R5F4,1305,261,1044,326,"[348, 348, 348]",3,2.62020371796452,True,tolerance,24,1,False,False,False
+5,5,R5F5,1305,261,1044,326,"[348, 348, 348]",3,2.792455700881039,True,tolerance,26,2,False,False,False

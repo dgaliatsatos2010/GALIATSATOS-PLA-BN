@@ -1,0 +1,8 @@
+......................                                                   [100%]
+22 passed in 2.01s
+PASS: check_rank_gate
+PASS: check_fit_and_probabilities
+PASS: check_fail_closed_behavior
+PASS: check_named_method_interface
+PASS: check_multistart_diagnostics
+All 5 GALIATSATOS/PLA-BN checks passed.
