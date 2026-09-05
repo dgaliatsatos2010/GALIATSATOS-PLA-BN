@@ -16,13 +16,15 @@ The repository supports the controlled simulation and real-data validation analy
 
 ## Frozen core
 
-The manuscript-facing runtime module is `plabn.py`.
+The manuscript-facing runtime module is plabn.py.
 
 SHA-256:
 
-`c8e0a286213a87ecaf5a9ab03e473d76989c92ab5856520c60993a98bfb40751`
+c8e0a286213a87ecaf5a9ab03e473d76989c92ab5856520c60993a98bfb40751
 
-The separately supplied `plabn_frozen_v1.0.0.py` is byte-identical to `plabn.py` and should be added to the repository root as an archival frozen copy.
+The root-level plabn_frozen_v1.0.0.py is a byte-identical archival copy of plabn.py corresponding to the manuscript-locked PLA-BN v1.0.0 core.
+
+The installable package contains the same frozen core under src/galiatsatos_plabn/plabn.py.
 
 ## Repository contents
 
@@ -39,6 +41,9 @@ The separately supplied `plabn_frozen_v1.0.0.py` is byte-identical to `plabn.py`
 - `results/` — manuscript-supporting aggregate, fold-level, OOF, audit, and comparison outputs.
 - `docs/` — method specification, frozen protocols, provenance, manuscript lock, and validation records.
 - `figures/` — manuscript figures derived from the reported results.
+- src/galiatsatos_plabn/ — installable Python package distributed through PyPI.
+- pyproject.toml — Python package metadata and build configuration.
+- PYPI_README.md — PyPI package description and usage documentation.
 
 ## Installation
 
@@ -168,7 +173,21 @@ See:
 
 ## Citation
 
-Citation metadata are supplied in `CITATION.cff`. After creating the GitHub repository and archiving a release with Zenodo, add the GitHub URL and Zenodo DOI to this README and to the manuscript Code Availability statement.
+Citation metadata are supplied in CITATION.cff.
+
+The source code and complete reproducibility repository are publicly available on GitHub:
+
+https://github.com/dgaliatsatos2010/GALIATSATOS-PLA-BN
+
+The installable Python package is available through PyPI as galiatsatos-plabn:
+
+https://pypi.org/project/galiatsatos-plabn/
+
+Version 1.0.0 of the software has also been archived on Zenodo:
+
+https://doi.org/10.5281/zenodo.22079293
+
+If you use GALIATSATOS / PLA-BN in research, please cite the archived software release and the associated manuscript.
 
 ## License
 
