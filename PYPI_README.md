@@ -6,7 +6,7 @@ GALIATSATOS is designed for supervised learning when different data sources use 
 
 ## Installation
 
-After publication on PyPI:
+Install the latest public release from PyPI:
 
 ```bash
 pip install galiatsatos-plabn
