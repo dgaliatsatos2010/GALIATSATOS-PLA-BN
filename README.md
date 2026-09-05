@@ -44,6 +44,18 @@ The separately supplied `plabn_frozen_v1.0.0.py` is byte-identical to `plabn.py`
 
 Python 3.10 or later is recommended.
 
+### Install from PyPI
+
+The public PLA-BN reference implementation is available through PyPI:
+
+```bash
+pip install galiatsatos-plabn
+```
+
+### Install from source
+
+For development or full repository reproducibility, clone the repository and create a virtual environment:
+
 ```bash
 python -m venv .venv
 ```
